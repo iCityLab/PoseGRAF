@@ -1,7 +1,7 @@
 
 # PoseGRAF: Geometric-Reinforced Adaptive Fusion...
 
-![Overall framework of PoseGRAF](images/OverFramework.png)
+![Overall framework of PoseGRAF](PoseGRAF/images/OverFramework.png)
 
 
 ---
@@ -70,8 +70,8 @@ python main.py --train --model PoseGRAF --layers 6 --nepoch 40 --gpu 0
 ## 🎬 Pose-Estimation Comparison
 
 <p align="center">
-  <img src="images/dance.png"  width="400" alt="2D pose"/>
-  <img src="images/dance3D.png" width="400" alt="3D pose"/>
+  <img src="PoseGRAF/images/dance.png"  width="400" alt="2D pose"/>
+  <img src="PoseGRAF/images/dance3D.png" width="400" alt="3D pose"/>
 </p>
 
 ---
@@ -95,13 +95,12 @@ ffmpeg -framerate 30 -start_number 0 -i "%04d_3D.png" -vf "scale=-2:872,fps=100"
 ffmpeg -i pose2D.mp4 -i pose3D.mp4 -filter_complex "hstack=inputs=2" -c:v libx264 -crf 23 -pix_fmt yuv420p pose_comparison.mp4
 ```
 
-<video src="videos/demo.mp4" controls width="600"></video>
 
 ---
 
 ## 🕺 Animated Dance GIF
 
-![Dance GIF](images/dancing.gif)
+![Dance GIF](PoseGRAF/images/dancing.gif)
 
 ```
 ```

@@ -1,9 +1,7 @@
 ````markdown
-# PoseGRAF: Geometric-Reinforced Adaptive Fusion for Monocular 3D Human Pose Estimation
+# PoseGRAF: Geometric-Reinforced Adaptive Fusion...
 
-<p align="center">
-  <img src="images/OverFramework.png" width="50%" alt="Overall framework of PoseGRAF"/>
-</p>
+![Overall framework of PoseGRAF](images/OverFramework.png)
 
 
 ---

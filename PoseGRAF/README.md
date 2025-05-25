@@ -1,4 +1,4 @@
-````markdown
+
 # PoseGRAF: Geometric-Reinforced Adaptive Fusion...
 
 ![Overall framework of PoseGRAF](images/OverFramework.png)
@@ -37,7 +37,7 @@ cd PoseGRAF
 
 # Create the conda environment
 conda env create -f environment.yml
-````
+
 
 ---
 
